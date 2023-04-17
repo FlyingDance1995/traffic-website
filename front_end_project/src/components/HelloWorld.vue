@@ -27,7 +27,7 @@ export default defineComponent ({
       // await renderCaptcha.getCaptcha();
       await axios({
         method: 'get',
-        url: 'http://localhost:3001',
+        url: 'https://e235-27-72-96-201.ngrok-free.app/',
         config: {
           headers: {
             "Access-Control-Allow-Origin": "*",
